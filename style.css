@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Solitreo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgba(241, 248, 27, 0.534);
+  width: 350px;
+  font-family: "Merriweather Sans", sans-serif;
+  height: 116vh;
+}
+.main {
+  background-color: rgb(248, 248, 248);
+  width: 93vw;
+}
+.container {
+  display: flex;
+  height: 116vh;
+}
+
+.sidebar nav {
+  padding: 50px;
+  font-size: 20px;
+}
+.sidebar nav li {
+  list-style: none;
+  padding: 33px 0;
+}
+
+.sidebar nav li a{
+  text-decoration: none ;
+  color: rgb(60, 58, 58);
+ 
+}
+.Infocontainer{
+  background-color: rgb(248, 248, 248);
+  height: 68vh;
+  width:80vw;
+  margin: 66px auto;
+  display:flex;
+  justify-content: space-around;
+}
+.devInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hello{
+  font-size: 70px;
+  font-family: 'Righteous', cursive;
+}
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+ 
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.name{
+  font-size: 50px;
+  height: 54px;
+  font-family: 'Solitreo', cursive;
+}
+
+.about{
+  margin-top: 15px;
+  height: 42px;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutInfo{
+  margin-top: 15px;
+  height: 80px;
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutInfo p{
+  margin-top: 15px;
+  margin-left: 68px;
+  margin-right: 82px;
+  height: 80px;
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button{
+  margin-top: 30px;
+}
+.button button { 
+  border-radius: 26px;
+  padding: 10px;
+  color: azure;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(52, 50, 50);
+  margin: 0px 20px 0px -2px ;
+}
+.button button a{
+  text-decoration: none ;
+  color: azure;
+}
+.button button:hover{
+  background-color: rgba(45, 46, 46, 0.729) ;
+}
+
+.devPic img{
+  height: 68vh;
+}
+
+.contactForm{
+  margin-top: 15px;
+  height: 42px;
+
+}
+
+.Aboutcontainer{
+  background-color: orangered;
+  height: 68vh;
+  width:80vw;
+  margin: 66px auto;
+  display:flex;
+  justify-content: space-around;
+}
+
+.Aboutcontainer .devPic{
+  margin-left: 662px;
+
+}
+
+.aboutme{
+
+  margin-top: 15px;
+  height: 42px;
+  font-size: 46px;
+  font-family: 'Righteous', cursive;
+}
+
+
